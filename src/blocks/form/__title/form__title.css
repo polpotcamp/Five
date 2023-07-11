@@ -3,7 +3,10 @@
     font-size: 24px;
     line-height: 29px;
     margin-bottom: 54px;
-    margin-left: 36px;
+    font-weight: 900;
+    padding-top: 34px;
+    padding-left: 36px;
+    max-height: 23px;
 }
 
 @media all and (max-width:768px) and (min-width:320px) {
@@ -11,7 +14,6 @@
         line-height: 22px;
         font-size: 18px;
         margin-bottom: 75px;
-        margin-left: 22px;
         margin-right: 22px;
     }
 }

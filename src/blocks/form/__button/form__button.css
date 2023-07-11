@@ -7,6 +7,8 @@
     text-align: center;
     border: 0 none;
     padding: 0;
+   margin-bottom: 37px;
+   margin-left: 36px;
 }
 
 .form__button:hover {

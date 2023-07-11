@@ -10,8 +10,7 @@
   "author": "stas basov",
   "license": "ISC",
   "dependencies": {
-    "core-js": "^3.31.1",
-    "jquery": "^3.7.0"
+    "core-js": "^3.31.1"
   },
   "devDependencies": {
     "@babel/core": "^7.22.8",

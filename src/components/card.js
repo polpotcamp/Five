@@ -1,13 +1,13 @@
 import { openPopup } from "./modal";
 const elementsContainer = document.querySelector('.elements');
-function openPopupCard(PopupCard, name, src) {
+function openPopupCard(popupCard, name, src) {
   const popupImg = document.querySelector('#popup-img');
   const popupImage = document.querySelector('.popup__img');
   const popupImageName = document.querySelector('.popup__img-name');
-  PopupCard.querySelector('.elements__img').addEventListener('click', function () {
+  popupCard.querySelector('.elements__img').addEventListener('click', function () {
     popupImage.src = `${src}`;
     popupImage.alt = `${name}`;
-    popupImageName.textContent = PopupCard.querySelector('.elements__discritpion').textContent
+    popupImageName.textContent = popupCard.querySelector('.elements__discritpion').textContent
     openPopup(popupImg);
   })
 }

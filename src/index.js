@@ -25,11 +25,6 @@ enableValidation({
     inputErrorClass: 'form__input_error-redbot',
     errorClass: 'form__input-error_active'
 })
-    formList.forEach((formElement) => {
-      formElement.addEventListener('submit', function (evt) {
-        evt.preventDefault();
-      });
-    })
 function addItem(evt) {
     evt.preventDefault();
     const place = inputPlace.value;

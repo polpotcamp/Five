@@ -3,9 +3,11 @@ const overlay = document.querySelectorAll('.popup__overlay')
 /* открытие и закрытие  popup */
 function openPopup(popup) {
     popup.classList.add("popup_opened");
+    document.addEventListener('keydown', closeByEsc)
 }
 function closePopup(popup) {
     popup.classList.remove("popup_opened");
+    document.removeEventListener('keydown', closeByEsc,)
 }
 /* закрытие попап при нажатии на overlay */
 
@@ -20,5 +22,4 @@ function closeByEsc(evt) {
       closePopup(openedPopup); 
     }
 }  
-document.addEventListener('keydown', closeByEsc)
 export { closePopup, openPopup }
